@@ -26,7 +26,7 @@
 
 `Приведите ответ в свободной форме........`
 
-1. `Заполните здесь этапы выполнения, если требуется ....`
+1. 'Install zabbix server'
 2. `Заполните здесь этапы выполнения, если требуется ....`
 3. `Заполните здесь этапы выполнения, если требуется ....`
 4. `Заполните здесь этапы выполнения, если требуется ....`
@@ -35,14 +35,27 @@
 
 ```
 Поле для вставки кода...
-....
-....
+# sudo apt update
+# sudo apt upgrade
+# wget https://repo.zabbix.com/zabbix/7.0/ubuntu/pool/main/z/zabbix-release/zabbix-release_7.0-2+ubuntu24.04_all.deb
+# sudo dpkg -i zabbix-release_7.0-2+ubuntu24.04_all.deb
+# sudo apt update
+# sudo apt install zabbix-server-pgsql zabbix-frontend-php php8.3-pgsql zabbix-apache-conf zabbix-sql-scripts 
+# sudo apt install postgresql
+# sudo -u postgres createuser --pwprompt zabbix
+# sudo -u postgres createdb -O zabbix zabbix
+# zcat /usr/share/zabbix-sql-scripts/postgresql/server.sql.gz | sudo -u zabbix psql zabbix
+# cd /etc/zabbix
+# sudo nano zabbix_server.conf
+DBPassword=zabbix
+# sudo systemctl restart zabbix-server apache2
+# sudo systemctl enable zabbix-server apache2 
 ....
 ....
 ```
 
 `При необходимости прикрепитe сюда скриншоты
-![Название скриншота 1](ссылка на скриншот 1)`
+![Install zabbix](https://github.com/Svetulkaash/zabbix/blob/main/img/Screenshot%20zabbix.png)`
 
 
 ---
@@ -51,7 +64,7 @@
 
 `Приведите ответ в свободной форме........`
 
-1. `Заполните здесь этапы выполнения, если требуется ....`
+1. `Install zabbix agent`
 2. `Заполните здесь этапы выполнения, если требуется ....`
 3. `Заполните здесь этапы выполнения, если требуется ....`
 4. `Заполните здесь этапы выполнения, если требуется ....`
@@ -60,14 +73,29 @@
 
 ```
 Поле для вставки кода...
+# sudo apt update
+# sudo apt upgrade
+# wget https://repo.zabbix.com/zabbix/7.0/ubuntu/pool/main/z/zabbix-release/zab>
+# sudo dpkg -i zabbix-release_7.0-2+ubuntu24.04_all.deb
+# sudo apt update
+# sudo apt install zabbix-agent
+# sudo systemctl restart zabbix-agent
+# sudo systemctl enable zabbix-agent
 ....
 ....
-....
+# git clone https://github.com/Svetulkaash/zabbix.git
+# cd zabbix
+# sudo nano README.md
+# git add README.md
+# git commit -m 'z commit'
+# git push origin
 ....
 ```
 
 `При необходимости прикрепитe сюда скриншоты
-![Название скриншота 2](ссылка на скриншот 2)`
+![Hosts](https://github.com/Svetulkaash/zabbix/blob/main/img/Screenshot%20hosts.png)`
+![Latest date](https://github.com/Svetulkaash/zabbix/blob/main/img/Screenshot%20latest%20data.png)`
+![Log](https://github.com/Svetulkaash/zabbix/blob/main/img/Screenshot%20log%20agent1.png)`
 
 
 ---
