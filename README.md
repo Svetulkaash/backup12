@@ -1,4 +1,4 @@
-# Домашнее задание к занятию "`Название занятия`" - `Фамилия и имя студента`
+# Домашнее задание к занятию "`Zabbix`" - `Svetlana Ashurkova`
 
 
 ### Инструкция по выполнению домашнего задания
@@ -55,7 +55,7 @@ DBPassword=zabbix
 ```
 
 `При необходимости прикрепитe сюда скриншоты
-![Install zabbix](https://github.com/Svetulkaash/zabbix/blob/main/img/Screenshot%20zabbix.png)`
+1. ![Install zabbix](https://github.com/Svetulkaash/zabbix/blob/main/img/Screenshot%20zabbix.png)
 
 
 ---
@@ -93,9 +93,9 @@ DBPassword=zabbix
 ```
 
 `При необходимости прикрепитe сюда скриншоты
-![Hosts](https://github.com/Svetulkaash/zabbix/blob/main/img/Screenshot%20hosts.png)`
-![Latest date](https://github.com/Svetulkaash/zabbix/blob/main/img/Screenshot%20latest%20data.png)`
-![Log](https://github.com/Svetulkaash/zabbix/blob/main/img/Screenshot%20log%20agent1.png)`
+1. ![Hosts](https://github.com/Svetulkaash/zabbix/blob/main/img/Screenshot%20hosts.png)
+2. ![Latest date](https://github.com/Svetulkaash/zabbix/blob/main/img/Screenshot%20latest%20data.png)`
+3. ![Log](https://github.com/Svetulkaash/zabbix/blob/main/img/Screenshot%20log%20agent1.png)`
 
 
 ---
