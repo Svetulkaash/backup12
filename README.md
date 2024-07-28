@@ -39,7 +39,7 @@
 # rsync -a --progress --checksum --exclude './*' ./tmp/backup
 ....
 `При необходимости прикрепитe сюда скриншоты
-1. ![rsync](https://github.com/Svetulkaash/backup12/blob/main/img/Screenshot%20rsync.png)
+1. ![rsync](https://github.com/Svetulkaash/backup123/blob/main/img/Screenshot%20rsync.png)
 
 
 ---
@@ -64,8 +64,8 @@
 ```
 
 `При необходимости прикрепитe сюда скриншоты
-1. ![Bash script](https://github.com/Svetulkaash/backup12/blob/main/img/Screenshot%20bash%20script.png)
-2. ![Crontab](https://github.com/Svetulkaash/backup12/blob/main/img/Screenshot%20cron.png)`
+1. ![Bash script](https://github.com/Svetulkaash/backup123/blob/main/img/Screenshot%20bash%20script.png)
+2. ![Crontab](https://github.com/Svetulkaash/backup123/blob/main/img/Screenshot%20cron.png)`
 3.
 
 
