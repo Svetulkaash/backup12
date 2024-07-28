@@ -39,7 +39,8 @@
 # rsync -a --progress --checksum --exclude './*' ./tmp/backup
 ....
 `При необходимости прикрепитe сюда скриншоты
-1. ![rsync](img/Screenshot rsync.png)
+1. ![rsync](https://github.com/Svetulkaash/backup123/blob/main/img/Screenshot%20rsync.png)
+
 
 
 # Задание 2
