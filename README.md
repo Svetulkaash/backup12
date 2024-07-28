@@ -42,6 +42,7 @@
 1. ![rsync](https://github.com/Svetulkaash/backup123/blob/main/img/Screenshot%20rsync.png)
 
 
+
 ---
 
 ### Задание 2
@@ -65,7 +66,7 @@
 
 `При необходимости прикрепитe сюда скриншоты
 1. ![Bash script](https://github.com/Svetulkaash/backup123/blob/main/img/Screenshot%20bash%20script.png)
-2. ![Crontab](https://github.com/Svetulkaash/backup123/blob/main/img/Screenshot%20cron.png)`
+2. ![Crontab](https://github.com/Svetulkaash/backup123/blob/main/img/Screenshot%20cron.png)
 3.
 
 
